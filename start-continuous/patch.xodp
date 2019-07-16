@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "Byg7A36sZB",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Trigger for starting continuous ranging.",
+      "id": "Bym03as-S",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "A VL53L0X device.",
+      "id": "HyUqyRiZB",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-vl53l0x-device"
+    },
+    {
+      "description": "Pulse on start of continuous ranging.",
+      "id": "SkfXA36jZS",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "50"
+      },
+      "description": "Inter-measurement period (milliseconds). If zero, continuous back-to-back mode is used (the sensor takes measurements as often as possible); otherwise, continuous timed mode is used, with the given inter-measurement period in milliseconds determining how often the sensor takes a measurement.",
+      "id": "r177C3aiZH",
+      "label": "IMP",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "id": "Bk43xo6iWS",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "500"
+      },
+      "description": "Timeout (microseconds).",
+      "id": "H13giTsWr",
+      "label": "TO",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "A VL53L0X device.",
+      "id": "S1Q_y0i-r",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-vl53l0x-device"
+    },
+    {
+      "description": "Pulse if initialization failed.",
+      "id": "S1fngiTj-B",
+      "label": "ERR",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
+      "description": "Trigger for initialization. Default is to initialize on boot.",
+      "id": "Syb3lipo-r",
+      "label": "INIT",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse if initialization successful.",
+      "id": "rkQ2go6jWS",
+      "label": "OK",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}

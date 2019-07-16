@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "description": "Update. Trigger for stopping continuous ranging.",
+      "id": "HkN4CpjZB",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "SyWNVRTo-S",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A VL53L0X device.",
+      "id": "r1TokCsbB",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-vl53l0x-device"
+    },
+    {
+      "description": "Pulse when continuous ranging stopped.",
+      "id": "ryzNERTsWH",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}

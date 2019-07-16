@@ -1,0 +1,25 @@
+{
+  "description": "Create VL53L0X device.",
+  "nodes": [
+    {
+      "description": "A VL53L1X device.",
+      "id": "Sym_iYj-H",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "id": "rkgQdsto-H",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}
