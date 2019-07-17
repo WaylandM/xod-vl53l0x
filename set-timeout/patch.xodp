@@ -1,2 +1,61 @@
 {
+  "description": "Set timeout.",
+  "nodes": [
+    {
+      "description": "Pulses when timeout set.",
+      "id": "BkZYG1j2bB",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "500"
+      },
+      "description": "Timeout (microseconds).",
+      "id": "HJYzJs2-S",
+      "label": "TO",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Update. Trigger for setting timeout.",
+      "id": "SklFfyj2bS",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "SyGtzJi2ZB",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A VL53L0X device.",
+      "id": "r1WQko2WB",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-vl53l0x-device"
+    }
+  ]
 }

@@ -1,4 +1,5 @@
 {
+  "description": "Read the I²C address of the VL53L0X.",
   "nodes": [
     {
       "description": "Pulses on read of  I²C address.",

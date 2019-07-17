@@ -1,2 +1,71 @@
 {
+  "nodes": [
+    {
+      "description": "A VL53L0X device.",
+      "id": "Bk6dA9h-H",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-vl53l0x-device"
+    },
+    {
+      "description": "Pulses when measurement timing budget is set.",
+      "id": "H1QM_C53-B",
+      "label": "OK",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Update. Trigger for setting measurement timing budget.",
+      "id": "S1zuA5hWB",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "200000"
+      },
+      "description": "Measurement timing budget (microseconds). N.B. units are microseconds not milliseconds.",
+      "id": "rJ-GuA5h-r",
+      "label": "MTB",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Pulses on failure to set measurement timing budget.",
+      "id": "rJNfd0q3-r",
+      "label": "ERR",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "rkeGOAq2bH",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
 }
