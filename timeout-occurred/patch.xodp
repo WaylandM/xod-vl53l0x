@@ -1,2 +1,57 @@
 {
+  "nodes": [
+    {
+      "description": "Timeout occurred.",
+      "id": "B1B9X87fr",
+      "label": "TO",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 12
+      },
+      "type": "xod/patch-nodes/output-boolean"
+    },
+    {
+      "description": "Pulse on check for timeout.",
+      "id": "Bybr5XLQGr",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 12
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "A VL53L0X device.",
+      "id": "Hy-sQLQMB",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 10
+      },
+      "type": "@/input-vl53l0x-device"
+    },
+    {
+      "description": "Update. Trigger check if timeout occurred.",
+      "id": "S17SqmLXGB",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 10
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "SJfB9XI7fB",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 11
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
 }
