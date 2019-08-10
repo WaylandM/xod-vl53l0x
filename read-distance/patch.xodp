@@ -1,2 +1,58 @@
 {
+  "description": "Read distance (mm).",
+  "nodes": [
+    {
+      "id": "S1S3JKdn7S",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Pulse on read.",
+      "id": "SJe3kKuhQr",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Update. Triggers read.",
+      "id": "SyGnJtu3QB",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Distance in millimetres.",
+      "id": "r1m2kKOnXS",
+      "label": "DIST",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "A VL53L0X device.",
+      "id": "rJxfKO2XB",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-vl53l0x-device"
+    }
+  ]
 }
