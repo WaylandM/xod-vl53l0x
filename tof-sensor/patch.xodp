@@ -1,0 +1,501 @@
+{
+  "description": "Time-of-Flight (ToF) sensor.",
+  "links": [
+    {
+      "id": "B1fKwtn7S",
+      "input": {
+        "nodeId": "HJuASYh7r",
+        "pinKey": "rJ-GuA5h-r"
+      },
+      "output": {
+        "nodeId": "BJB8DtnmH",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "BJqCItnQH",
+      "input": {
+        "nodeId": "ByxyLY2mr",
+        "pinKey": "HyUqyRiZB"
+      },
+      "output": {
+        "nodeId": "r1468F27B",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "BJv-dY2XB",
+      "input": {
+        "nodeId": "HkGbuKhmr",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "BJRmPKnQS",
+        "pinKey": "r1m2kKOnXS"
+      }
+    },
+    {
+      "id": "BkGm8t2QS",
+      "input": {
+        "nodeId": "Hyqz8Y37H",
+        "pinKey": "Bkh8A_Sv1-"
+      },
+      "output": {
+        "nodeId": "ByxyLY2mr",
+        "pinKey": "SkfXA36jZS"
+      }
+    },
+    {
+      "id": "BkewIt27S",
+      "input": {
+        "nodeId": "BkVLIt3mS",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Hyqz8Y37H",
+        "pinKey": "HkyxURuSPyW"
+      }
+    },
+    {
+      "id": "By-WvF2QS",
+      "input": {
+        "nodeId": "H1w4UFnmB",
+        "pinKey": "ryv7IRdSP1b"
+      },
+      "output": {
+        "nodeId": "HJuASYh7r",
+        "pinKey": "rJNfd0q3-r"
+      }
+    },
+    {
+      "id": "By_C8t3mr",
+      "input": {
+        "nodeId": "HJuASYh7r",
+        "pinKey": "Bk6dA9h-H"
+      },
+      "output": {
+        "nodeId": "SkWiUKnXS",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "H1EZLY27H",
+      "input": {
+        "nodeId": "ByxyLY2mr",
+        "pinKey": "Bym03as-S"
+      },
+      "output": {
+        "nodeId": "HJuASYh7r",
+        "pinKey": "H1QM_C53-B"
+      }
+    },
+    {
+      "id": "H1e4DKh7r",
+      "input": {
+        "nodeId": "BJRmPKnQS",
+        "pinKey": "rJxfKO2XB"
+      },
+      "output": {
+        "nodeId": "ryyCUYhQr",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "H1y-wFnQS",
+      "input": {
+        "nodeId": "H1w4UFnmB",
+        "pinKey": "ByU7LRuSPkW"
+      },
+      "output": {
+        "nodeId": "Sk2TrK2Qr",
+        "pinKey": "S1fngiTj-B"
+      }
+    },
+    {
+      "id": "HJc0PY37r",
+      "input": {
+        "nodeId": "SyEpPF27r",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "ryx0wFnmr",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HJfZLF37r",
+      "input": {
+        "nodeId": "HJuASYh7r",
+        "pinKey": "S1zuA5hWB"
+      },
+      "output": {
+        "nodeId": "Sk2TrK2Qr",
+        "pinKey": "rkQ2go6jWS"
+      }
+    },
+    {
+      "id": "S1-5wY3mH",
+      "input": {
+        "nodeId": "Sk2TrK2Qr",
+        "pinKey": "Syb3lipo-r"
+      },
+      "output": {
+        "nodeId": "ByNr8DFhXB",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "S1FtPKnQr",
+      "input": {
+        "nodeId": "Sk2TrK2Qr",
+        "pinKey": "H13giTsWr"
+      },
+      "output": {
+        "nodeId": "r1grLPY37r",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SJBqvtnXr",
+      "input": {
+        "nodeId": "BJJHIt3QH",
+        "pinKey": "SJ-1mZPTz"
+      },
+      "output": {
+        "nodeId": "Sk-SLwthXH",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Sk1XwF2Xr",
+      "input": {
+        "nodeId": "rJUfwF3mS",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "H1w4UFnmB",
+        "pinKey": "ByHmL0uHPk-"
+      }
+    },
+    {
+      "id": "SkZbUF2QB",
+      "input": {
+        "nodeId": "Sk2TrK2Qr",
+        "pinKey": "S1Q_y0i-r"
+      },
+      "output": {
+        "nodeId": "HJQTSK2QB",
+        "pinKey": "Sym_iYj-H"
+      }
+    },
+    {
+      "id": "SyMOvYhQH",
+      "input": {
+        "nodeId": "ByxyLY2mr",
+        "pinKey": "r177C3aiZH"
+      },
+      "output": {
+        "nodeId": "BkfSLDKhmS",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Syq6vF3QS",
+      "input": {
+        "nodeId": "SkgV6wFh7r",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "BJRmPKnQS",
+        "pinKey": "SJe3kKuhQr"
+      }
+    },
+    {
+      "id": "r1bOLYnmr",
+      "input": {
+        "nodeId": "BJJHIt3QH",
+        "pinKey": "B1P1nFwaM"
+      },
+      "output": {
+        "nodeId": "r1HP8Fn7H",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rJyHvYhQr",
+      "input": {
+        "nodeId": "BJRmPKnQS",
+        "pinKey": "SyGnJtu3QB"
+      },
+      "output": {
+        "nodeId": "BJJHIt3QH",
+        "pinKey": "OkPg7GDaW"
+      }
+    },
+    {
+      "id": "ryVcIt2mS",
+      "input": {
+        "nodeId": "HJ9K8Y2Xr",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "HJQTSK2QB",
+        "pinKey": "Sym_iYj-H"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "__out__": "200000"
+      },
+      "description": "Measurement timing budget (microseconds).",
+      "id": "BJB8DtnmH",
+      "label": "MTB",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "BJJHIt3QH",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 3
+      },
+      "type": "xod/core/gate"
+    },
+    {
+      "id": "BJRmPKnQS",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 4
+      },
+      "type": "@/read-distance"
+    },
+    {
+      "id": "BkVLIt3mS",
+      "label": "INTD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 5
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "200"
+      },
+      "description": "Inter-measurement period (milliseconds). This period should be at least as long as the measurement timing budget.",
+      "id": "BkfSLDKhmS",
+      "label": "IMP",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
+      "description": "Trigger for initialization. Default is to initialize on boot.",
+      "id": "ByNr8DFhXB",
+      "label": "INIT",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "ByxyLY2mr",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "@/start-continuous"
+    },
+    {
+      "id": "H1w4UFnmB",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "xod/core/any"
+    },
+    {
+      "id": "HJ9K8Y2Xr",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "HJQTSK2QB",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "@/vl53l0x-device"
+    },
+    {
+      "id": "HJuASYh7r",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "@/set-measurement-timing-budget"
+    },
+    {
+      "description": "Distance in millimetres.",
+      "id": "HkGbuKhmr",
+      "label": "DIST",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 5
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "Hyqz8Y37H",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 4
+      },
+      "type": "xod/core/flip-flop"
+    },
+    {
+      "description": "Update. Triggers read.",
+      "id": "Sk-SLwthXH",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "Sk2TrK2Qr",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "@/init"
+    },
+    {
+      "id": "SkWiUKnXS",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "description": "Pulse on read.",
+      "id": "SkgV6wFh7r",
+      "label": "OK",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 5
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Pulse on error.",
+      "id": "SyEpPF27r",
+      "label": "ERR",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 5
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "r1468F27B",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "r1HP8Fn7H",
+      "label": "INTD",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "500"
+      },
+      "description": "Timeout (microseconds).",
+      "id": "r1grLPY37r",
+      "label": "TO",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "rJUfwF3mS",
+      "label": "ERR",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "ryx0wFnmr",
+      "label": "ERR",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "ryyCUYhQr",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/from-bus"
+    }
+  ]
+}
