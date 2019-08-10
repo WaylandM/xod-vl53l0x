@@ -22,7 +22,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "Timeout (microseconds).",
+      "description": "Timeout (milliseconds).",
       "id": "SJxUaA92-r",
       "label": "TO",
       "position": {

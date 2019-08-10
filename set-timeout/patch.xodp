@@ -16,7 +16,7 @@
       "boundLiterals": {
         "__out__": "500"
       },
-      "description": "Timeout (microseconds).",
+      "description": "Timeout (milliseconds).",
       "id": "HJYzJs2-S",
       "label": "TO",
       "position": {

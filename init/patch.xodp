@@ -1,4 +1,5 @@
 {
+  "description": "Initialize VL53L0X device.",
   "nodes": [
     {
       "id": "Bk43xo6iWS",
