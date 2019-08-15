@@ -36,17 +36,6 @@
       "type": "@/input-vl53l0x-device"
     },
     {
-      "description": "Pulse if initialization failed.",
-      "id": "S1fngiTj-B",
-      "label": "ERR",
-      "position": {
-        "units": "slots",
-        "x": 1,
-        "y": 2
-      },
-      "type": "xod/patch-nodes/output-pulse"
-    },
-    {
       "boundLiterals": {
         "__out__": "On Boot"
       },
@@ -61,9 +50,9 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "description": "Pulse if initialization successful.",
+      "description": "Pulse on initialization.",
       "id": "rkQ2go6jWS",
-      "label": "OK",
+      "label": "DONE",
       "position": {
         "units": "slots",
         "x": 0,

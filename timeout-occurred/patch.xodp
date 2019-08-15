@@ -1,4 +1,5 @@
 {
+  "description": "Did a timeout occur in one of the read functions since the last call to this node?",
   "nodes": [
     {
       "description": "Timeout occurred.",

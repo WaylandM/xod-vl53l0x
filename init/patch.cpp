@@ -14,15 +14,19 @@ void evaluate(Context ctx) {
     // Get a pointer to the `VL53L0X` class instance
     auto sensor = getValue<input_DEV>(ctx);
 
+    // Initialize VL53L0X module
+    sensor->init();
+
+    // Don't check for successful initialization - init() returns true even if no VL53L0X connected!
     // Attempt to initialize VL53L0X module; if attempt fails emit pulse from error port
-    if (!sensor->init()) {
-        emitValue<output_ERR>(ctx, 1);
-        return;
-    }
+    //if (!sensor->init()) {
+        //emitValue<output_ERR>(ctx, 1);
+        //return;
+    //}
 
     // set timeout
     sensor->setTimeout(getValue<input_TO>(ctx));
 
-    // Pulse that module initialized successfully
-    emitValue<output_OK>(ctx, 1);
+    // Pulse to indicate initialization complete
+    emitValue<output_DONE>(ctx, 1);
 }

@@ -57,17 +57,6 @@
       }
     },
     {
-      "id": "By-WvF2QS",
-      "input": {
-        "nodeId": "H1w4UFnmB",
-        "pinKey": "ryv7IRdSP1b"
-      },
-      "output": {
-        "nodeId": "HJuASYh7r",
-        "pinKey": "rJNfd0q3-r"
-      }
-    },
-    {
       "id": "By_C8t3mr",
       "input": {
         "nodeId": "HJuASYh7r",
@@ -97,28 +86,6 @@
       },
       "output": {
         "nodeId": "ryyCUYhQr",
-        "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "H1y-wFnQS",
-      "input": {
-        "nodeId": "H1w4UFnmB",
-        "pinKey": "ByU7LRuSPkW"
-      },
-      "output": {
-        "nodeId": "Sk2TrK2Qr",
-        "pinKey": "S1fngiTj-B"
-      }
-    },
-    {
-      "id": "HJc0PY37r",
-      "input": {
-        "nodeId": "SyEpPF27r",
-        "pinKey": "__in__"
-      },
-      "output": {
-        "nodeId": "ryx0wFnmr",
         "pinKey": "__out__"
       }
     },
@@ -164,17 +131,6 @@
       "output": {
         "nodeId": "Sk-SLwthXH",
         "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "Sk1XwF2Xr",
-      "input": {
-        "nodeId": "rJUfwF3mS",
-        "pinKey": "__in__"
-      },
-      "output": {
-        "nodeId": "H1w4UFnmB",
-        "pinKey": "ByHmL0uHPk-"
       }
     },
     {
@@ -263,7 +219,7 @@
       "id": "BJJHIt3QH",
       "position": {
         "units": "slots",
-        "x": 9,
+        "x": 8,
         "y": 3
       },
       "type": "xod/core/gate"
@@ -272,7 +228,7 @@
       "id": "BJRmPKnQS",
       "position": {
         "units": "slots",
-        "x": 8,
+        "x": 7,
         "y": 4
       },
       "type": "@/read-distance"
@@ -325,15 +281,6 @@
       "type": "@/start-continuous"
     },
     {
-      "id": "H1w4UFnmB",
-      "position": {
-        "units": "slots",
-        "x": 5,
-        "y": 3
-      },
-      "type": "xod/core/any"
-    },
-    {
       "id": "HJ9K8Y2Xr",
       "label": "DEV",
       "position": {
@@ -367,7 +314,7 @@
       "label": "DIST",
       "position": {
         "units": "slots",
-        "x": 8,
+        "x": 7,
         "y": 5
       },
       "type": "xod/patch-nodes/output-number"
@@ -387,7 +334,7 @@
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 9,
+        "x": 8,
         "y": -1
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -414,21 +361,10 @@
     {
       "description": "Pulse on read.",
       "id": "SkgV6wFh7r",
-      "label": "OK",
+      "label": "DONE",
       "position": {
         "units": "slots",
-        "x": 9,
-        "y": 5
-      },
-      "type": "xod/patch-nodes/output-pulse"
-    },
-    {
-      "description": "Pulse on error.",
-      "id": "SyEpPF27r",
-      "label": "ERR",
-      "position": {
-        "units": "slots",
-        "x": 10,
+        "x": 8,
         "y": 5
       },
       "type": "xod/patch-nodes/output-pulse"
@@ -448,7 +384,7 @@
       "label": "INTD",
       "position": {
         "units": "slots",
-        "x": 10,
+        "x": 9,
         "y": 2
       },
       "type": "xod/patch-nodes/from-bus"
@@ -468,31 +404,11 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "id": "rJUfwF3mS",
-      "label": "ERR",
-      "position": {
-        "units": "slots",
-        "x": 5,
-        "y": 4
-      },
-      "type": "xod/patch-nodes/to-bus"
-    },
-    {
-      "id": "ryx0wFnmr",
-      "label": "ERR",
-      "position": {
-        "units": "slots",
-        "x": 10,
-        "y": 4
-      },
-      "type": "xod/patch-nodes/from-bus"
-    },
-    {
       "id": "ryyCUYhQr",
       "label": "DEV",
       "position": {
         "units": "slots",
-        "x": 8,
+        "x": 7,
         "y": 3
       },
       "type": "xod/patch-nodes/from-bus"

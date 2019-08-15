@@ -1,4 +1,5 @@
 {
+  "description": "Read measurement timing budget of VL53L0X.",
   "nodes": [
     {
       "id": "BkIaTqhbB",

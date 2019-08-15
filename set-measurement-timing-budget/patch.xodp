@@ -14,7 +14,7 @@
     {
       "description": "Pulses when measurement timing budget is set.",
       "id": "H1QM_C53-B",
-      "label": "OK",
+      "label": "DONE",
       "position": {
         "units": "slots",
         "x": 0,
@@ -46,17 +46,6 @@
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
-    },
-    {
-      "description": "Pulses on failure to set measurement timing budget.",
-      "id": "rJNfd0q3-r",
-      "label": "ERR",
-      "position": {
-        "units": "slots",
-        "x": 1,
-        "y": 2
-      },
-      "type": "xod/patch-nodes/output-pulse"
     },
     {
       "id": "rkeGOAq2bH",

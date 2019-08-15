@@ -1,3 +1,6 @@
 {
-  "name": ""
+  "description": "Time-of-Flight (ToF) sensor. Arduino library for the ST VL53L0X sensor (https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html). Wraps the Pololu VL43L0X library for Arduino (https://github.com/pololu/vl53l0x-arduino).",
+  "license": "BSD-3-Clause",
+  "name": "vl53l0x-time-of-flight",
+  "version": "0.0.1"
 }
